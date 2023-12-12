@@ -32,7 +32,7 @@ st.write(f'Total Columns{len(cols)}➡️ {",".join(cols)}')
 st.cache_data()
 
 with st.spinner('Loading data...'):
-    df1= load_data("Data/Top_100_batsman.csv")
+    df1= load_data("DATA/Top_100_batsman.csv")
 st.info('Top 100 batsmen')
 st.dataframe(df1,use_container_width=True)   
 
@@ -44,7 +44,7 @@ st.write(f'Total Columns{len(cols)}➡️ {",".join(cols)}')
 st.cache_data()
 
 with st.spinner('Loading data...'):
-    df2= load_data("Data/Top_100_bowlers.csv")
+    df2= load_data("DATA/Top_100_bowlers.csv")
 st.info('Top 100 bowlers')
 st.dataframe(df2,use_container_width=True)
 
