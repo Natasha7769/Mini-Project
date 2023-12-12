@@ -113,11 +113,7 @@ fig1 = go.Figure(data=[go.Scatter(
         size=[40,60,80,100,105]       
     )
 )])
-st.plotly_chart(fig1,use_container_width=True)
-
-
 #Bowlers insights
-
 st.plotly_chart(fig1,use_container_width=True)
 st.title('Top 5 Blowers Based on wickets')
 Bowlers=pd.read_csv("DATA/Top_100_bowlers.csv",encoding ="ISO-8859-1")
